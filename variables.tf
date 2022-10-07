@@ -17,3 +17,7 @@ variable "team" {
 variable "eks_version" {
   description = "EKS Version to deploy"
 }
+
+variable "cluster" {
+  description = "blue/green deployments"
+}
